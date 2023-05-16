@@ -1,0 +1,25 @@
+﻿using System;
+using System.Threading;
+
+namespace P01.Clock
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int h = 0; h < 24; h++)
+            {
+                for (int m = 0; m < 60; m++)
+                {
+                    Console.WriteLine($"{h}:{m}");
+
+                 //   Thread.Sleep(1000); // Милисекунди да заприлича повече на часовник
+
+
+
+
+                }
+            }
+        }
+    }
+}
